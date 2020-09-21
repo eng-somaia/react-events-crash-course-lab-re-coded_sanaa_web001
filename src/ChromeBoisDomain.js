@@ -3,7 +3,7 @@ import { drawChromeBoiAtCoords, toggleCycling, resize } from './canvasHelpers.js
 
 
 export default class ChromeBoisDomain extends Component {
-  
+
   handleMouseMove = (event) => {
       let X = event.clientX;
       let Y = event.clientY;
@@ -20,7 +20,7 @@ export default class ChromeBoisDomain extends Component {
   }
   render() {
     return (
-      <canvas 
+      <canvas
         onClick={this.clicked}
         onKeyPress={this.pressed}
         onMouseMove={this.handleMouseMove}
